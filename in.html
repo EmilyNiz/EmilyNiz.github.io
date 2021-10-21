@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+<body>
+    <header class="cd-auto-hide-header">
+        <div class="logo"><a href="#0"><img src="imgs/logo.png" alt="Logo"></a></div>
+    
+        <nav class="cd-primary-nav">
+            <a href="#cd-navigation" class="nav-trigger">
+                <span>
+                    <em aria-hidden="true"></em>
+                    Menu
+                </span>
+            </a> <!-- .nav-trigger -->
+    
+            <ul id="cd-navigation">
+                <li><a href="in.html">Inicio</a></li>
+                <li><a href="videos1.html">Videos</a></li>
+                <li><a href="galeria1.html">Galeria</a></li>
+                <li><a href="servicios1.html">Contactanos</a></li>
+            </ul>
+        </nav> <!-- .cd-primary-nav -->
+    </header> <!-- .cd-auto-hide-header -->
+
+     <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="imgs/1.jpg"></div>
+          <div class="swiper-slide"><img src="imgs/2.jpg"></div>
+          <div class="swiper-slide"><img src="imgs/3.jpg"></div>
+          <div class="swiper-slide"><img src="imgs/4.jpg"></div>
+          <div class="swiper-slide"><img src="imgs/5.jpg"></div>
+          <div class="swiper-slide"><img src="imgs/6.jpg"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+   
+    
+    <!--Java-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+<br>
+  <h1>El Arte</h1>
+  <br>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Nostrum dignissimos error magni odit. Quam officia quisquam 
+    laudantium labore, a nobis magni! Blanditiis praesentium aliquam, 
+    tempora ratione veritatis dolor ea eius?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Nostrum dignissimos error magni odit. Quam officia quisquam 
+    laudantium labore, a nobis magni! Blanditiis praesentium aliquam, 
+    tempora ratione veritatis dolor ea eius?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Nostrum dignissimos error magni odit. Quam officia quisquam 
+    laudantium labore, a nobis magni! Blanditiis praesentium aliquam, 
+    tempora ratione veritatis dolor ea eius?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Nostrum dignissimos error magni odit. Quam officia quisquam 
+    laudantium labore, a nobis magni! Blanditiis praesentium aliquam, 
+    tempora ratione veritatis dolor ea eius?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Nostrum dignissimos error magni odit. Quam officia quisquam 
+    laudantium labore, a nobis magni! Blanditiis praesentium aliquam, 
+    tempora ratione veritatis dolor ea eius?</p>
+<br>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  Nostrum dignissimos error magni odit. Quam officia quisquam 
+  laudantium labore, a nobis magni! Blanditiis praesentium aliquam, 
+  tempora ratione veritatis dolor ea eius?
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  Nostrum dignissimos error magni odit. Quam officia quisquam 
+  laudantium labore, a nobis magni! Blanditiis praesentium aliquam, 
+  tempora ratione veritatis dolor ea eius?
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  Nostrum dignissimos error magni odit. Quam officia quisquam 
+  laudantium labore, a nobis magni! Blanditiis praesentium aliquam, 
+  tempora ratione veritatis dolor ea eius?
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  Nostrum dignissimos error magni odit. Quam officia quisquam 
+  laudantium labore, a nobis magni! Blanditiis praesentium aliquam, 
+  tempora ratione veritatis dolor ea eius?
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  Nostrum dignissimos error magni odit. Quam officia quisquam 
+  laudantium labore, a nobis magni! Blanditiis praesentium aliquam, 
+  tempora ratione veritatis dolor ea eius?</p>
+<br>
+    <footer>  
+      <div class="footer-content">
+          <h5>code opacity</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis autem magnam, 
+            placeat exercitationem aliquid harum tempore. Non quod totam dolorum cupiditate 
+            dolor veritatis corporis ratione consequuntur dolores! Quam, minima quasi.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+      </div>
+      <div class="footer-bottom">
+          <p>copyright &copy;2021 code0pacity. designed by <span>emilyniz</span></p>
+      </div>
+    </footer>
+</body>
+</html>
